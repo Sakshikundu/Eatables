@@ -23,7 +23,7 @@ response = urlopen(req, timeout=20).read()
 # In[3]:
 
 
-driver = webdriver.Chrome("C:/Users/julfi/chromedriver.exe")
+driver = webdriver.Chrome("chromedriver.exe")
 driver.get(url)
 
 
