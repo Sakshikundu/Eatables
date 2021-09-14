@@ -4,7 +4,7 @@
 
 # In[1]:
 
-
+pip install webdriver-manager
 from urllib.request import urlopen,Request
 import requests
 from bs4 import BeautifulSoup
